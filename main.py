@@ -40,7 +40,7 @@ def chat_with_replit(message, history):
 
 js = """<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>"""
 
-with gr.Blocks(fill_height=True, head=js) as demo:
+with gr.Blocks(title="Replit + Anthropic", fill_height=True, head=js) as demo:
   gr.ChatInterface(chat_with_replit,
                    fill_height=True,
                    examples=[

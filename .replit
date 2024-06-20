@@ -1,10 +1,10 @@
-entrypoint = "main.py"
+entrypoint = "README.md"
 modules = ["python-3.11:v14-20231207-2f65342"]
 run = "python main.py"
 hidden = [".pythonlibs"]
 
 [nix]
-channel = "stable-23_05"
+channel = "stable-23_11"
 
 [unitTest]
 language = "python3"
