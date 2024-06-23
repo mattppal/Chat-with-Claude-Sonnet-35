@@ -2,9 +2,6 @@
 
 This project allows users to interact with an AI language model using a Gradio interface. The code in `main.py` sets up a chat interface where users can communicate with Claude Sonnet 3.5, a model from Anthropic, and get text responses streamed back.
 
-You can play with a deployed version here: 
-https://chat-with-claude-sonnet-3-5.replit.app
-
 <div align="center">
   <img src="./assets/Chat-with-Claude-Sonnet-35@2x.jpg" width="50%" />
 </div>
